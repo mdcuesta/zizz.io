@@ -1,0 +1,18 @@
+---
+layout: layout.dot
+title: Index
+---
+
+{{##styles:
+	{{# def.css('home')}}
+#}}
+
+{{##main:
+	<div>Hello from index.dot</div>
+	<div>Hello 1</div>
+	<div>{{# def.getResourceString('hello')}}</div>
+#}}
+
+{{##scripts:
+	{{# def.javascript('home', {{= model.locale }}) }}
+#}}

@@ -1,0 +1,8 @@
+---
+layout: layout.dot
+title: Error
+---
+
+{{##main:
+  <h3>{{= model.message}}</h3>
+#}}
